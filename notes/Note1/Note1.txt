@@ -1,0 +1,2 @@
+sprite do player tem 30 fps
+
