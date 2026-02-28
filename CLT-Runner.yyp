@@ -13,7 +13,7 @@
     {"id":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"order":3,},
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},"order":1,},
     {"id":{"name":"obj_controlador","path":"objects/obj_controlador/obj_controlador.yy",},"order":2,},
-    {"id":{"name":"Object5","path":"objects/Object5/Object5.yy",},"order":4,},
+    {"id":{"name":"obj_clt","path":"objects/obj_clt/obj_clt.yy",},"order":4,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_rua","path":"sprites/spr_rua/spr_rua.yy",},"order":6,},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":12,},
