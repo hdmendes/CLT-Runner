@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object6",
-  "spriteId": null,
+  "name": "obj_colisao",
+  "spriteId": {
+    "name": "Sprite13",
+    "path": "sprites/Sprite13/Sprite13.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

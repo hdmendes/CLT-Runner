@@ -5,3 +5,5 @@
 comida = choose(spr_batata, spr_chocolate, spr_coxinha, spr_hamburguer);
 
 alarm[0] = room_speed * 5;
+
+velocidade = 2;
