@@ -23,5 +23,4 @@ else
 comida.sprite_index = _sprite;
 
 // Tempo aleatório para próximo spawn
-var _tempo_comida = choose(1, 2, 5, 9, 11);
-alarm[1] = room_speed * _tempo_comida;
+alarm[1] = room_speed * choose(1, 2, 5, 9, 11);
