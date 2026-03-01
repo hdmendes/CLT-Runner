@@ -10,5 +10,9 @@ audio_play_sound(snd_musica_fundo, 0, 1);
 // Chama alarme para criar inimigo
 alarm[0] = room_speed * 3;
 
-// Chama alarme para criar comida
+//Chama alarme para criar comida
 alarm[1] = room_speed * 1.5;
+
+// Maneira profisional de fazer o código do alarm[1]
+//alarm[2] = room_speed * 1.5;
+

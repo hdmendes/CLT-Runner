@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_colisao",
   "spriteId": {
-    "name": "Sprite13",
-    "path": "sprites/Sprite13/Sprite13.yy",
+    "name": "spr_colisao",
+    "path": "sprites/spr_colisao/spr_colisao.yy",
   },
   "solid": false,
   "visible": true,

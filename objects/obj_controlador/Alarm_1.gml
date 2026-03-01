@@ -1,25 +1,27 @@
 /// @description Cria comida
 // Você pode escrever seu código neste editor
 
-// Var lado de criação do inimigo
-var _esquerda_comida = choose(0, 1);
-// Escolhando lado aleatóriamente
-choose(_esquerda_comida);
+// Escolhe sprite aleatória
+var _sprite = choose(spr_batata, spr_chocolate, spr_coxinha, spr_hamburguer);
 
-// Definindo o sentindo da sprite a ser gerada
-if(_esquerda_comida)
+// Escolhe lado
+var _esquerda_comida = choose(false, true);
+
+var comida;
+
+if (_esquerda_comida)
 {
-	instance_create_layer(-4, -48, "Instances", obj_comida);
+    comida = instance_create_layer(12, -48, "Instances", obj_comida);
 }
 else
 {
-	with(instance_create_layer(184, -48, "Instances", obj_comida))
-{
-    image_xscale = -1;
-}
+    comida = instance_create_layer(170, -48, "Instances", obj_comida);
+    comida.image_xscale = -1;
 }
 
-// Variavel tempo de geração dos inimigos
-var _tempo_comida = choose(1, 5, 9, 11);
-// Loop do alarme
+// Aplica sprite escolhida
+comida.sprite_index = _sprite;
+
+// Tempo aleatório para próximo spawn
+var _tempo_comida = choose(1, 2, 5, 9, 11);
 alarm[1] = room_speed * _tempo_comida;
