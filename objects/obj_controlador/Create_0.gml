@@ -6,3 +6,6 @@ window_set_size(360, 640);
 
 // Música do jogo
 audio_play_sound(snd_musica_fundo, 0, 1);
+
+// Chama alarme para criar inimigo
+alarm[0] = room_speed * 3;
