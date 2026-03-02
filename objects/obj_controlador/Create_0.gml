@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 // Aumenta a tela do jogo
-window_set_size(360, 640);
+//window_set_size(360, 640);
 
 // Chama alarme para criar inimigo
 alarm[0] = room_speed * 3;
