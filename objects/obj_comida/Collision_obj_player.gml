@@ -5,7 +5,10 @@
 global.pontos ++;
 
 // Som de coleta
-audio_play_sound(snd_coletavel, 1, 0);
+if(global.som_ligado)
+{
+	audio_play_sound(snd_coletavel, 1, 0);
+}
 
 // Destroi obj
 instance_destroy(self);

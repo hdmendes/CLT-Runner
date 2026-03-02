@@ -2,3 +2,5 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 
 global.pontos = 0;
+
+global.som_ligado = true;
