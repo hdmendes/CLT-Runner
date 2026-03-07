@@ -4,4 +4,3 @@
 // toca a música e guarda o id
 musica_id = audio_play_sound(snd_musica_fundo, 0, true);
 
-audio_play_sound(musica_id, 0, 1);
